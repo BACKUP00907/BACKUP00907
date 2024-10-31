@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @BACKUP00907
-- 👀 I’m interested in cryptology
+- 👀 I’m interested in cryptology both making and breaking cryptographic algos
 - 🌱 I’m currently learning in in school still a 9th grader and learning computer science as hobby
 - 😄 Pronouns: HE / HIM 
 - ⚡ Fun fact: i want to work for some secret organisation
