@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Profile</title>
+    <style>
+        /* Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Basic Styling */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f2f5;
+            color: #333;
+        }
+
+        .profile-container {
+            width: 80%;
+            max-width: 800px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+        }
+
+        .header {
+            background-color: #4a90e2;
+            color: #fff;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            font-size: 1.2em;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        .content h2 {
+            font-size: 1.8em;
+            margin-bottom: 15px;
+            color: #4a90e2;
+        }
+
+        .content p {
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .profile-img {
+            display: block;
+            margin: 0 auto 20px;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 5px solid #4a90e2;
+        }
+
+        .contact-info {
+            margin-top: 20px;
+        }
+
+        .contact-info h3 {
+            font-size: 1.5em;
+            color: #4a90e2;
+            margin-bottom: 10px;
+        }
+
+        .contact-info ul {
+            list-style-type: none;
+        }
+
+        .contact-info li {
+            margin-bottom: 10px;
+        }
+
+        .contact-info a {
+            color: #4a90e2;
+            text-decoration: none;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 10px;
+            background: #f0f2f5;
+            color: #777;
+            font-size: 0.9em;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2em;
+            }
+
+            .header p, .content h2 {
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="profile-container">
+        <div class="header">
+            <img src="profile.jpg" alt="Profile Image" class="profile-img">
+            <h1>Your Name</h1>
+            <p>Full Stack Developer | Tech Enthusiast | Problem Solver</p>
+        </div>
+        <div class="content">
+            <h2>About Me</h2>
+            <p>
+                Passionate developer with expertise in web development, application design, and data analysis. I enjoy learning new technologies, working with innovative teams, and building meaningful projects that make an impact.
+            </p>
+
+            <h2>Skills</h2>
+            <p>
+                HTML, CSS, JavaScript, Python, React, Node.js, SQL, and more.
+            </p>
+
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <ul>
+                    <li>Email: <a href="mailto:yourname@example.com">yourname@example.com</a></li>
+                    <li>Phone: <a href="tel:+1234567890">+1 (234) 567-890</a></li>
+                    <li>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></li>
+                    <li>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer">
+            &copy; 2024 Your Name. All rights reserved.
+        </div>
+    </div>
+
+</body>
+</html>
